@@ -1,2 +1,2 @@
-cd ~/Develop/GitCode/AzusaHikari/uma-python-tools/
+cd %USERPROFILE%/Documents/GitHub/AzusaHikari/uma-python-tools/
 python analysisTools.py
