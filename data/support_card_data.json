@@ -2484,5 +2484,38 @@
     "unique_effect_id": 30106,
     "effect_table_id": 30106,
     "command_id": 102
+  },
+  "30107": {
+    "id": 30107,
+    "name_jp": "[おセンチ注意報♪]マルゼンスキー",
+    "name_zh": "[おセンチ注意報♪]丸善斯基",
+    "short_name": "[速]丸善斯基",
+    "rarity": "SSR",
+    "type": "速",
+    "unique_effect_id": 30107,
+    "effect_table_id": 30107,
+    "command_id": 101
+  },
+  "30108": {
+    "id": 30108,
+    "name_jp": "[一天地六に身を任せ]ナカヤマフェスタ",
+    "name_zh": "[一天地六に身を任せ]七山祭",
+    "short_name": "[智]七山祭",
+    "rarity": "SSR",
+    "type": "智",
+    "unique_effect_id": 30108,
+    "effect_table_id": 30108,
+    "command_id": 106
+  },
+  "30109": {
+    "id": 30109,
+    "name_jp": "[チョベリグ心あれば桜心]サクラチヨノオー",
+    "name_zh": "[チョベリグ心あれば桜心]樱花千代王",
+    "short_name": "[根]樱花千代王",
+    "rarity": "SSR",
+    "type": "根",
+    "unique_effect_id": 30109,
+    "effect_table_id": 30109,
+    "command_id": 103
   }
 }

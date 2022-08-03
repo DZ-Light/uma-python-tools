@@ -168,6 +168,19 @@
     "running_style": "追",
     "available_skill_set_id": 100701
   },
+  "100702": {
+    "id": 100702,
+    "name_jp": "[RUN！乱！ランチャー！！]ゴールドシップ",
+    "name_zh": "[RUN！乱！ランチャー！！]黄金船",
+    "nickname": "黄金船",
+    "talent_speed": 0,
+    "talent_stamina": 0,
+    "talent_pow": 20,
+    "talent_guts": 0,
+    "talent_wiz": 10,
+    "running_style": "追",
+    "available_skill_set_id": 100702
+  },
   "100801": {
     "id": 100801,
     "name_jp": "[ワイルドトップギア]ウオッカ",
@@ -284,6 +297,19 @@
     "talent_wiz": 10,
     "running_style": "先",
     "available_skill_set_id": 101302
+  },
+  "101303": {
+    "id": 101303,
+    "name_jp": "[さざ波フェアレディ]メジロマックイーン",
+    "name_zh": "[さざ波フェアレディ]目白麦昆",
+    "nickname": "目白麦昆",
+    "talent_speed": 8,
+    "talent_stamina": 8,
+    "talent_pow": 0,
+    "talent_guts": 0,
+    "talent_wiz": 14,
+    "running_style": "先",
+    "available_skill_set_id": 101303
   },
   "101401": {
     "id": 101401,

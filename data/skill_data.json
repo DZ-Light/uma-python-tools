@@ -1311,6 +1311,22 @@
     "group_id": 11006,
     "group_rate": 1
   },
+  "110071": {
+    "id": 110071,
+    "name_jp": "Adventure of 564",
+    "name_zh": "Adventure of 564",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "distance_rate_after_random==50",
+    "condition_2": "",
+    "describe": "レース後半どっかで速度をわずかに上げ\\nついでに使えそうなレアスキルを2つ\\n条件を無視して発動させる",
+    "icon_id": 20013,
+    "group_id": 11007,
+    "group_rate": 1
+  },
   "110101": {
     "id": 110101,
     "name_jp": "Joyful Voyage!",
@@ -1677,6 +1693,22 @@
     "describe": "終盤最終コーナーでスキルを発動すると\\n声援を胸に速度を少し上げる\\n中山レース場ならすごく上げる",
     "icon_id": 20013,
     "group_id": 12001,
+    "group_rate": 1
+  },
+  "120131": {
+    "id": 120131,
+    "name_jp": "きらめくは海、まばゆきは君",
+    "name_zh": "きらめくは海、まばゆきは君",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "distance_rate>=50&order_rate<=40",
+    "condition_2": "",
+    "describe": "レース後半に先団にいると残りの\\n持久力に応じたロングスパートをかけて\\n速度をわずかに上げ続ける",
+    "icon_id": 20013,
+    "group_id": 12013,
     "group_rate": 1
   },
   "200011": {
@@ -7450,7 +7482,7 @@
     "disp_order": 21570,
     "condition_1": "distance_type==4&phase_firsthalf_random==1&order_rate>=40&order_rate<=80",
     "condition_2": "",
-    "describe": "レース中盤初めの方に中団にいると\\n速度をわずかに落として\\n持久力をすごく回復する＜長距離＞",
+    "describe": "レース中盤始めの方に中団にいると\\n速度をわずかに落として\\n持久力をすごく回復する＜長距離＞",
     "icon_id": 20022,
     "group_id": 20207,
     "group_rate": 2
@@ -7466,7 +7498,7 @@
     "disp_order": 21580,
     "condition_1": "distance_type==4&phase_firsthalf_random==1&order_rate>=40&order_rate<=80",
     "condition_2": "",
-    "describe": "レース中盤初めの方に中団にいると\\n速度をわずかに落として\\n持久力を少し回復する＜長距離＞",
+    "describe": "レース中盤始めの方に中団にいると\\n速度をわずかに落として\\n持久力を少し回復する＜長距離＞",
     "icon_id": 20021,
     "group_id": 20207,
     "group_rate": 1
@@ -7758,6 +7790,38 @@
     "icon_id": 10044,
     "group_id": 20218,
     "group_rate": -1
+  },
+  "202191": {
+    "id": 202191,
+    "name_jp": "一意専心",
+    "name_zh": "一意専心",
+    "need_skill_point": 170,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 21760,
+    "condition_1": "is_badstart==0&running_style==2&distance_type==4&phase_firsthalf_random==1",
+    "condition_2": "",
+    "describe": "出遅れずにスタートを切れると\\n中盤始めの方で持久力をすごく回復する\\n＜先行・長距離＞",
+    "icon_id": 20022,
+    "group_id": 20219,
+    "group_rate": 2
+  },
+  "202192": {
+    "id": 202192,
+    "name_jp": "抜かりなし",
+    "name_zh": "抜かりなし",
+    "need_skill_point": 170,
+    "grade_value": 217,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 21770,
+    "condition_1": "is_badstart==0&running_style==2&distance_type==4&phase_firsthalf_random==1",
+    "condition_2": "",
+    "describe": "出遅れずにスタートを切れると\\n中盤始めの方で持久力を少し回復する\\n＜先行・長距離＞",
+    "icon_id": 20021,
+    "group_id": 20219,
+    "group_rate": 1
   },
   "210011": {
     "id": 210011,
@@ -9215,6 +9279,22 @@
     "group_id": 91006,
     "group_rate": 2
   },
+  "910071": {
+    "id": 910071,
+    "name_jp": "Adventure of 564",
+    "name_zh": "Adventure of 564",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "distance_rate_after_random==50",
+    "condition_2": "",
+    "describe": "レース後半に速度をほんのわずかに上げ\\nさらに使用可能なレアスキルを1つ\\n条件を無視して発動させる",
+    "icon_id": 20011,
+    "group_id": 91007,
+    "group_rate": 2
+  },
   "910101": {
     "id": 910101,
     "name_jp": "Joyful Voyage!",
@@ -9581,6 +9661,22 @@
     "describe": "終盤最終コーナーでスキルを発動すると\\n速度をちょっと上げる\\n中山レース場なら少し上げる",
     "icon_id": 20011,
     "group_id": 92001,
+    "group_rate": 2
+  },
+  "920131": {
+    "id": 920131,
+    "name_jp": "きらめくは海、まばゆきは君",
+    "name_zh": "きらめくは海、まばゆきは君",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "distance_rate>=50&order_rate<=40",
+    "condition_2": "",
+    "describe": "レース後半に先団にいると残りの\\n持久力に応じたロングスパートをかけて\\n速度をほんのわずかに上げ続ける",
+    "icon_id": 20011,
+    "group_id": 92013,
     "group_rate": 2
   },
   "1100011": {

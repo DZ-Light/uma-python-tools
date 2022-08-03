@@ -13331,6 +13331,36 @@
       }
     ]
   },
+  "501007800": {
+    "storyId": 501007800,
+    "storyName": "竜ゴル城にお出迎え",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501007801": {
+    "storyId": 501007801,
+    "storyName": "海の家（族）",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501007802": {
+    "storyId": 501007802,
+    "storyName": "海産勇者伝説ゴルシ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
   "501007900": {
     "storyId": 501007900,
     "storyName": "自己紹介",
@@ -21462,6 +21492,36 @@
       {
         "title": "大丈夫、君には君の良さがある",
         "text": "賢さ+10\nスキルPt+15\nランダムで『注目株』になる"
+      }
+    ]
+  },
+  "501013803": {
+    "storyId": 501013803,
+    "storyName": "それはきっと、青写真よりも",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501013804": {
+    "storyId": 501013804,
+    "storyName": "貴方は私の",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501013805": {
+    "storyId": 501013805,
+    "storyName": "触らぬ者にたたりなしですわ！！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
       }
     ]
   },
@@ -93219,7 +93279,7 @@
   },
   "830096002": {
     "storyId": 830096002,
-    "storyName": "仲間集結！プリンセスなら優雅たれ！",
+    "storyName": "仲間集結！プリンセスなら優雅なれ！",
     "choices": [
       {
         "title": "",
@@ -93520,6 +93580,106 @@
   "830106003": {
     "storyId": 830106003,
     "storyName": "ふたり、だからこそ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830107001": {
+    "storyId": 830107001,
+    "storyName": "渚のリゾート Romanticに恋して",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830107002": {
+    "storyId": 830107002,
+    "storyName": "思い出のときめき 今も My Heartに",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830107003": {
+    "storyId": 830107003,
+    "storyName": "ずっと Zutto 輝いて Forever",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830108001": {
+    "storyId": 830108001,
+    "storyName": "揺るぎなき眼",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830108002": {
+    "storyId": 830108002,
+    "storyName": "炎は冷たい背の内に",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830108003": {
+    "storyId": 830108003,
+    "storyName": "デスパレートに輝いて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830108004": {
+    "storyId": 830108004,
+    "storyName": "デスパレートに輝いて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830109001": {
+    "storyId": 830109001,
+    "storyName": "優しいあなたに",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830109002": {
+    "storyId": 830109002,
+    "storyName": "思いっきり笑ってほしいから",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "830109003": {
+    "storyId": 830109003,
+    "storyName": "『楽しい』を贈ります！",
     "choices": [
       {
         "title": "",
