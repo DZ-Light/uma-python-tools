@@ -443,13 +443,13 @@ def move_race_data(path):
                             root, "ParseTeamStadiumOpponentListResponse", name, 1)
                     if json_has_text(msg, "race_start_params_array"):
                         print_file_name(name, "CarrotJuicer_team_race")
-                        move_file(root, "MsgPack/CarrotJuicer_team_race", name)
+                        move_file(root, "../MsgPack/CarrotJuicer_team_race", name)
                     elif json_has_text(msg, "trained_chara_array") and json_has_text(
                             msg, "race_scenario"
                     ):
                         print_file_name(name, "CarrotJuicer_train_race")
                         move_file(
-                            root, "MsgPack/CarrotJuicer_train_race", name)
+                            root, "../MsgPack/CarrotJuicer_train_race", name)
                     elif (
                             json_has_text(msg, "race_horse_data")
                             or json_has_text(msg, "race_horse_data_array")
@@ -463,9 +463,9 @@ def move_race_data(path):
                     ):
 
                         print_file_name(name, "CarrotJuicer_info")
-                        clear_path("MsgPack/CarrotJuicer_info", 0)
-                        clear_path("Json/CarrotJuicer_info", 0)
-                        move_file(root, "MsgPack/CarrotJuicer_info", name)
+                        clear_path("../MsgPack/CarrotJuicer_info", 0)
+                        clear_path("../Json/CarrotJuicer_info", 0)
+                        move_file(root, "../MsgPack/CarrotJuicer_info", name)
                         convert_msgpack_json("CarrotJuicer_info", name)
                     os.remove(os.path.join(root, name))
 

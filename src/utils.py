@@ -9,18 +9,18 @@ import msgpack
 from prettytable import PrettyTable
 from pykakasi import kakasi
 
-dbPath = "master.mdb"
-umdbPath = "data/umdb.json"
-charaPath = "data/chara_data.json"
-cardPath = "data/card_data.json"
-supportCardPath = "data/support_card_data.json"
-skillPath = "data/skill_data.json"
-racePath = "data/race_data.json"
-eventPath = "data/event_data.json"
-factorPath = "data/factor_data.json"
-itemPath = "data/item_data.json"
-translatePath = "data/translate.json"
-cjedbPath = "cjedb.json"
+dbPath = "../master_jp/master.mdb"
+umdbPath = "../data/umdb.json"
+charaPath = "../data/chara_data.json"
+cardPath = "../data/card_data.json"
+supportCardPath = "../data/support_card_data.json"
+skillPath = "../data/skill_data.json"
+racePath = "../data/race_data.json"
+eventPath = "../data/event_data.json"
+factorPath = "../data/factor_data.json"
+itemPath = "../data/item_data.json"
+translatePath = "../data/translate.json"
+cjedbPath = "../cjedb.json"
 basicPoint = [
     0,
     1,
@@ -1934,7 +1934,7 @@ def select_from_mdb(cur, path, fun):
 
 
 def init_data():
-    move_file(os.path.expanduser('~') + "/AppData/LocalLow/Cygames/umamusume/master", ".", "master.mdb")
+    move_file(os.path.expanduser('~') + "/AppData/LocalLow/Cygames/umamusume/master", "../master_jp", "master.mdb")
     connection = sqlite3.connect(dbPath)
     print("数据库打开成功 === " + dbPath)
     cursor = connection.cursor()
@@ -1951,7 +1951,7 @@ def init_data():
         cursor, itemPath, select_item_data)
     print("数据操作成功")
     connection.close()
-    move_file(".", os.path.expanduser('~') + "/DMMGAME/Umamusume", "cjedb.json")
+    move_file("..", os.path.expanduser('~') + "/DMMGAME/Umamusume", "cjedb.json")
 
 
 def insert_log(value):
