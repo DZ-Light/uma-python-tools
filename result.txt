@@ -1,2 +1,0 @@
-chara_effect_id_array
-

@@ -20,7 +20,7 @@ eventPath = "../data/event_data.json"
 factorPath = "../data/factor_data.json"
 itemPath = "../data/item_data.json"
 translatePath = "../data/translate.json"
-cjedbPath = "../cjedb.json"
+cjedbPath = "../data/cjedb.json"
 basicPoint = [
     0,
     1,
@@ -1464,24 +1464,24 @@ def get_grade_value(chara_info, skill):
 
 
 def deal_path(old_path, new_path, name, num):
-    clear_path("MsgPack/" + new_path, num)
-    clear_path("Json/" + new_path, num)
-    move_file(old_path, "MsgPack/" + new_path, name)
+    clear_path("../MsgPack/" + new_path, num)
+    clear_path("../Json/" + new_path, num)
+    move_file(old_path, "../MsgPack/" + new_path, name)
     convert_msgpack_json(new_path, name)
 
 
 def convert_msgpack_json(new_path, name):
-    with open(os.path.join("MsgPack/" + new_path, name), "rb") as load_f:
+    with open(os.path.join("../MsgPack/" + new_path, name), "rb") as load_f:
         msg = load_f.read()
         if "Q.msgpack" in name:
             offset = struct.unpack_from("<i", msg, 0)[0]
             msg = msg[4 + offset:]
         msg = msgpack.loads(msg, strict_map_key=False)
-    if not os.path.exists("Json/" + new_path):
-        os.makedirs("Json/" + new_path)
+    if not os.path.exists("../Json/" + new_path):
+        os.makedirs("../Json/" + new_path)
     with open(
             os.path.join(
-                "Json/" + new_path, name.replace(".msgpack", ".json")
+                "../Json/" + new_path, name.replace(".msgpack", ".json")
             ),
             "w",
             encoding="utf-8",
@@ -1951,7 +1951,7 @@ def init_data():
         cursor, itemPath, select_item_data)
     print("数据操作成功")
     connection.close()
-    move_file("..", os.path.expanduser('~') + "/DMMGAME/Umamusume", "cjedb.json")
+    move_file("../data", os.path.expanduser('~') + "/DMMGAME/Umamusume", "cjedb.json")
 
 
 def insert_log(value):
