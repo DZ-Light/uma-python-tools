@@ -1,9 +1,8 @@
-import sqlite3
 from utils import *
-jp_dbPath = "master.mdb"
-tw_dbPath = "tw/master.mdb"
-move_file(os.path.expanduser('~') + "/AppData/LocalLow/Cygames/umamusume/master", "..", "master.mdb")
-move_file(os.path.expanduser('~') + "/Documents/leidian/Pictures", "../tw/", "master.mdb")
+jp_dbPath = "../master_jp/master.mdb"
+tw_dbPath = "../master_tw/master.mdb"
+move_file(os.path.expanduser('~') + "/AppData/LocalLow/Cygames/umamusume/master", "../master_jp/", "master.mdb")
+move_file(os.path.expanduser('~') + "/Documents/leidian9/Pictures", "../master_tw/", "master.mdb")
 jp_connect = sqlite3.connect(jp_dbPath)
 tw_connect = sqlite3.connect(tw_dbPath)
 print("JP数据库打开成功 === " + jp_dbPath)

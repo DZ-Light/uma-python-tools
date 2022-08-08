@@ -95,8 +95,10 @@ def ParseCommandInfo(msg, root, name):
     table.add_column(failureRate[103], commandInfo[103])
     table.add_column(failureRate[106], commandInfo[106])
     print(table)
-    value = (data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"], data["chara_info"]["speed"], data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
-             data["chara_info"]["wiz"], data["chara_info"]["vital"], data["chara_info"]["max_vital"], data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"])
+    value = (data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"], data["chara_info"]["speed"],
+             data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
+             data["chara_info"]["wiz"], data["chara_info"]["vital"], data["chara_info"]["max_vital"],
+             data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"], msg["data_headers"]["viewer_id"])
     insert_log(value)
 
 
@@ -443,7 +445,8 @@ def move_race_data(path):
                             root, "ParseTeamStadiumOpponentListResponse", name, 1)
                     if json_has_text(msg, "race_start_params_array"):
                         print_file_name(name, "CarrotJuicer_team_race")
-                        move_file(root, "../MsgPack/CarrotJuicer_team_race", name)
+                        viewer_id = msg["data_headers"]["viewer_id"]
+                        move_file(root, "../MsgPack/CarrotJuicer_team_race/" + str(viewer_id), name)
                     elif json_has_text(msg, "trained_chara_array") and json_has_text(
                             msg, "race_scenario"
                     ):
@@ -474,10 +477,12 @@ if __name__ == "__main__":
     print(color("程序开始运行", for_color=31))
     system_name = platform.system()
     if system_name == "Windows":
-        msgpack_path = os.path.expanduser('~') + "/DMMGAME/Umamusume/CarrotJuicer"
+        msgpack_path_jp = os.path.expanduser('~') + "/DMMGAME/Umamusume/CarrotJuicer"
+        msgpack_path_tw = os.path.expanduser('~') + "/AppData/Local/UmamusumeResponseAnalyzer/packets"
         while 1:
             try:
-                move_race_data(msgpack_path)
+                move_race_data(msgpack_path_jp)
+                move_race_data(msgpack_path_tw)
             except Exception as ex:
                 print(color("出现如下异常%s" % ex, for_color=31))
                 init_data()
