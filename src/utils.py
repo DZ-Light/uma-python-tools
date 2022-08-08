@@ -1957,7 +1957,7 @@ def init_data():
 def insert_log(value):
     cx = sqlite3.connect("../data/uma.sqlite")
     cu = cx.cursor()
-    ins = "REPLACE INTO single_mode_log( id, turn, speed, stamina, power, guts, wiz, vital, max_vital, motivation, fans, skill_point, viewer_id) VALUES( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
+    ins = "REPLACE INTO single_mode_log( viewer_id, id, turn, speed, stamina, power, guts, wiz, vital, max_vital, motivation, fans, skill_point ) VALUES( ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);"
     cu.execute(ins, value)
     cx.commit()
     cx.close()

@@ -95,10 +95,11 @@ def ParseCommandInfo(msg, root, name):
     table.add_column(failureRate[103], commandInfo[103])
     table.add_column(failureRate[106], commandInfo[106])
     print(table)
-    value = (data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"], data["chara_info"]["speed"],
+    value = (msg["data_headers"]["viewer_id"], data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"],
+             data["chara_info"]["speed"],
              data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
              data["chara_info"]["wiz"], data["chara_info"]["vital"], data["chara_info"]["max_vital"],
-             data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"], msg["data_headers"]["viewer_id"])
+             data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"])
     insert_log(value)
 
 
