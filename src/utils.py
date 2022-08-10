@@ -1245,15 +1245,13 @@ def cale_win_saddle(info):
         [
             val
             for val in info["win_saddle_id_array"]
-            if val
-               in info["succession_chara_array"][0]["win_saddle_id_array"]
+            if val in info["succession_chara_array"][0]["win_saddle_id_array"]
         ]
     ) + len(
         [
             val
             for val in info["win_saddle_id_array"]
-            if val
-               in info["succession_chara_array"][1]["win_saddle_id_array"]
+            if val in info["succession_chara_array"][1]["win_saddle_id_array"]
         ]
     )
     return win_saddle
@@ -1335,8 +1333,11 @@ def calc(chara_info):
                               "name": temp_out["name_jp"]}
             if temp_out["group_rate"] > 1:
                 for skill_id_in in skill_dict:
-                    if temp_out["group_id"] == skill_dict[skill_id_in]["group_id"] and skill_dict[skill_id_in][
-                        "rarity"] < temp_out["rarity"] and skill_id_in not in skill_tips_map:
+                    if (
+                            temp_out["group_id"] == skill_dict[skill_id_in]["group_id"]
+                            and skill_dict[skill_id_in]["rarity"] < temp_out["rarity"]
+                            and skill_id_in not in skill_tips_map
+                    ):
                         temp_in = skill_dict[skill_id_in]
                         grade_value_in = get_grade_value(chara_info, temp_in)
                         skill_tips_int = {"id": temp_in["id"], "group_id": temp_in["group_id"],
@@ -1355,8 +1356,12 @@ def calc(chara_info):
     print("当前分数：" + color(str(max_rank_point), for_color=31), end="\t")
     for skill_tips in skill_tips_array:
         for skill_id in skill_dict:
-            if skill_tips["group_id"] == skill_dict[skill_id]["group_id"] and skill_dict[skill_id]["rarity"] <= \
-                    skill_tips["rarity"] and skill_dict[skill_id]["group_rate"] > 0 and skill_id not in skill_tips_map:
+            if (
+                    skill_tips["group_id"] == skill_dict[skill_id]["group_id"]
+                    and skill_dict[skill_id]["rarity"] <= skill_tips["rarity"]
+                    and skill_dict[skill_id]["group_rate"] > 0
+                    and skill_id not in skill_tips_map
+            ):
                 temp = skill_dict[skill_id]
                 grade_value = get_grade_value(chara_info, temp)
                 need_skill_point = Decimal(temp["need_skill_point"] * (
@@ -1783,12 +1788,12 @@ def select_support_card_data(cur, old_support_card_data, translate_dict):
             translate_dict[tuples[1]] = tuples[1]
         if tuples[2] not in translate_dict:
             translate_dict[tuples[2]] = tuples[2]
-        supportCard = {"id": tuples[0], "name_jp": tuples[1] + tuples[2],
-                       "name_zh": translate_dict[tuples[1]] + translate_dict[tuples[2]],
-                       "short_name": "[" + tuples[4] + "]" + translate_dict[tuples[2]], "rarity": tuples[3],
-                       "type": tuples[4], "unique_effect_id": tuples[5], "effect_table_id": tuples[6],
-                       "command_id": tuples[7]}
-        new_support_card_data[supportCard["id"]] = supportCard
+        support_card = {"id": tuples[0], "name_jp": tuples[1] + tuples[2],
+                        "name_zh": translate_dict[tuples[1]] + translate_dict[tuples[2]],
+                        "short_name": "[" + tuples[4] + "]" + translate_dict[tuples[2]], "rarity": tuples[3],
+                        "type": tuples[4], "unique_effect_id": tuples[5], "effect_table_id": tuples[6],
+                        "command_id": tuples[7]}
+        new_support_card_data[support_card["id"]] = support_card
     return new_support_card_data, translate_dict
 
 
