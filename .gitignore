@@ -1,6 +1,6 @@
 Json
 __pycache__/
 .idea/
-MsgPack
-!MsgPack/CarrotJuicer_team_race
-!MsgPack/CarrotJuicer_train_race
+MsgPack/*
+!MsgPack/CarrotJuicer_team_race/
+!MsgPack/CarrotJuicer_train_race/
