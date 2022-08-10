@@ -42,6 +42,7 @@ def move_race_data(path):
                             root, "ParseSingleModeCheckEventResponse", name, 5)
                         if (
                                 json_has_text(msg, "chara_info")
+                                and json_has_text(msg, "unchecked_event_array")
                                 and (msg["data"]["chara_info"]["state"] == 2
                                      or msg["data"]["chara_info"]["state"] == 3)
                                 and len(msg["data"]["unchecked_event_array"]) == 0

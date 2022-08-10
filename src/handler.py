@@ -8,7 +8,7 @@ def ParseCommandInfo(msg):
     support_card = {}
     for support_card in data["chara_info"]["support_card_array"]:
         support_card[support_card["position"]] = support_card["support_card_id"]
-    failure_rate = {}
+    failure_rate_row= {}
     command_info = {}
     maxsize = 0
     for command in data["home_info"]["command_info_array"]:
@@ -68,29 +68,29 @@ def ParseCommandInfo(msg):
         if len(partner_name) > maxsize:
             maxsize = len(partner_name)
         if command_id == 101:
-            failure_rate[101] = "速(" + failure_rate + "%)"
+            failure_rate_row[101] = "速(" + failure_rate + "%)"
             command_info[101] = partner_name
         if command_id == 105:
-            failure_rate[105] = "耐(" + failure_rate + "%)"
+            failure_rate_row[105] = "耐(" + failure_rate + "%)"
             command_info[105] = partner_name
         if command_id == 102:
-            failure_rate[102] = "力(" + failure_rate + "%)"
+            failure_rate_row[102] = "力(" + failure_rate + "%)"
             command_info[102] = partner_name
         if command_id == 103:
-            failure_rate[103] = "根(" + failure_rate + "%)"
+            failure_rate_row[103] = "根(" + failure_rate + "%)"
             command_info[103] = partner_name
         if command_id == 106:
-            failure_rate[106] = "智(" + failure_rate + "%)"
+            failure_rate_row[106] = "智(" + failure_rate + "%)"
             command_info[106] = partner_name
     for info in command_info:
         while len(command_info[info]) < maxsize:
             command_info[info].append("")
     table = PrettyTable()
-    table.add_column(failure_rate[101], command_info[101])
-    table.add_column(failure_rate[105], command_info[105])
-    table.add_column(failure_rate[102], command_info[102])
-    table.add_column(failure_rate[103], command_info[103])
-    table.add_column(failure_rate[106], command_info[106])
+    table.add_column(failure_rate_row[101], command_info[101])
+    table.add_column(failure_rate_row[105], command_info[105])
+    table.add_column(failure_rate_row[102], command_info[102])
+    table.add_column(failure_rate_row[103], command_info[103])
+    table.add_column(failure_rate_row[106], command_info[106])
     print(table)
     value = (msg["data_headers"]["viewer_id"], data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"],
              data["chara_info"]["speed"],
