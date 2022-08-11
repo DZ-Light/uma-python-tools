@@ -1,15 +1,14 @@
 from utils import *
 
-
 def ParseCommandInfo(msg):
     data = msg["data"]
     with open(supportCardPath, "r", encoding="utf-8") as load_f:
         support_card_dict = json.load(load_f)
-    support_card = {}
+    supportCard = {}
     for support_card in data["chara_info"]["support_card_array"]:
-        support_card[support_card["position"]] = support_card["support_card_id"]
-    failure_rate_row= {}
-    command_info = {}
+        supportCard[support_card["position"]] = support_card["support_card_id"]
+    failureRate = {}
+    commandInfo = {}
     maxsize = 0
     for command in data["home_info"]["command_info_array"]:
         command_id = command["command_id"]
@@ -33,7 +32,7 @@ def ParseCommandInfo(msg):
         tips = set(command["tips_event_partner_array"]) & set(
             command["training_partner_array"])
         partner_name = []
-        for_color = 38
+        forColor = 38
         npc = {
             101: "骏川手纲",
             102: "理事长",
@@ -42,18 +41,18 @@ def ParseCommandInfo(msg):
             106: "代理理事长",
         }
         for partner in command["training_partner_array"]:
-            if partner in support_card:
+            if partner in supportCard:
                 short_name = support_card_dict[str(
-                    support_card[partner])]["short_name"]
+                    supportCard[partner])]["short_name"]
                 if 1 <= partner <= 7:
                     for evaluation in data["chara_info"]["evaluation_info_array"]:
                         if evaluation["target_id"] == partner and evaluation["evaluation"] < 80:
-                            for_color = 33
-                if support_card_dict[str(support_card[partner])]["command_id"] == 0:
-                    for_color = 32
-                if support_card_dict[str(support_card[partner])]["command_id"] == command_id:
-                    for_color = 35
-                short_name = color(short_name, for_color=for_color)
+                            forColor = 33
+                if support_card_dict[str(supportCard[partner])]["command_id"] == 0:
+                    forColor = 32
+                if support_card_dict[str(supportCard[partner])]["command_id"] == command_id:
+                    forColor = 35
+                short_name = color(short_name, for_color=forColor)
                 if partner in tips:
                     short_name = color("!", for_color=31) + short_name
                 partner_name.append(short_name)
@@ -68,33 +67,32 @@ def ParseCommandInfo(msg):
         if len(partner_name) > maxsize:
             maxsize = len(partner_name)
         if command_id == 101:
-            failure_rate_row[101] = "速(" + failure_rate + "%)"
-            command_info[101] = partner_name
+            failureRate[101] = "速(" + failure_rate + "%)"
+            commandInfo[101] = partner_name
         if command_id == 105:
-            failure_rate_row[105] = "耐(" + failure_rate + "%)"
-            command_info[105] = partner_name
+            failureRate[105] = "耐(" + failure_rate + "%)"
+            commandInfo[105] = partner_name
         if command_id == 102:
-            failure_rate_row[102] = "力(" + failure_rate + "%)"
-            command_info[102] = partner_name
+            failureRate[102] = "力(" + failure_rate + "%)"
+            commandInfo[102] = partner_name
         if command_id == 103:
-            failure_rate_row[103] = "根(" + failure_rate + "%)"
-            command_info[103] = partner_name
+            failureRate[103] = "根(" + failure_rate + "%)"
+            commandInfo[103] = partner_name
         if command_id == 106:
-            failure_rate_row[106] = "智(" + failure_rate + "%)"
-            command_info[106] = partner_name
-    for info in command_info:
-        while len(command_info[info]) < maxsize:
-            command_info[info].append("")
+            failureRate[106] = "智(" + failure_rate + "%)"
+            commandInfo[106] = partner_name
+    for info in commandInfo:
+        while len(commandInfo[info]) < maxsize:
+            commandInfo[info].append("")
     table = PrettyTable()
-    table.add_column(failure_rate_row[101], command_info[101])
-    table.add_column(failure_rate_row[105], command_info[105])
-    table.add_column(failure_rate_row[102], command_info[102])
-    table.add_column(failure_rate_row[103], command_info[103])
-    table.add_column(failure_rate_row[106], command_info[106])
+    table.add_column(failureRate[101], commandInfo[101])
+    table.add_column(failureRate[105], commandInfo[105])
+    table.add_column(failureRate[102], commandInfo[102])
+    table.add_column(failureRate[103], commandInfo[103])
+    table.add_column(failureRate[106], commandInfo[106])
     print(table)
     value = (msg["data_headers"]["viewer_id"], data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"],
-             data["chara_info"]["speed"],
-             data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
+             data["chara_info"]["speed"], data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
              data["chara_info"]["wiz"], data["chara_info"]["vital"], data["chara_info"]["max_vital"],
              data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"])
     insert_log(value)
@@ -249,14 +247,14 @@ def ParseTeamStadiumOpponentListResponse(msg):
         table = PrettyTable()
         table.title = strength_type
         field_names = ["马娘"]
-        proper_type_line = ["类型"]
-        proper_value_line = ["适性"]
-        speed_line = ["速度"]
-        stamina_line = ["耐力"]
-        power_line = ["力量"]
-        guts_line = ["根性"]
-        wiz_line = ["智力"]
-        rank_score_line = ["评价"]
+        properTypeLine = ["类型"]
+        properValueLine = ["适性"]
+        speedLine = ["速度"]
+        staminaLine = ["耐力"]
+        powerLine = ["力量"]
+        gutsLine = ["根性"]
+        wizLine = ["智力"]
+        rankScoreLine = ["评价"]
         for team_data in i["team_data_array"]:
             if team_data["trained_chara_id"] == 0:
                 break
@@ -331,33 +329,39 @@ def ParseTeamStadiumOpponentListResponse(msg):
                 proper_value += proper_dict.get(
                     trained_chara["proper_running_style_oikomi"]
                 )
-            proper_type_line.append(proper_type)
-            proper_value_line.append(proper_value)
-            speed_line.append(trained_chara["speed"])
-            stamina_line.append(trained_chara["stamina"])
-            power_line.append(trained_chara["power"])
-            guts_line.append(trained_chara["guts"])
-            wiz_line.append(trained_chara["wiz"])
-            rank_score_line.append(trained_chara["rank_score"])
-        proper_type_line.append("平均")
-        proper_value_line.append("/ / /")
-        speed_line.append(int(round(sum(speed_line[1:]) / len(speed_line[1:]), 0)))
-        stamina_line.append(int(round(sum(stamina_line[1:]) / len(stamina_line[1:]), 0)))
-        power_line.append(int(round(sum(power_line[1:]) / len(power_line[1:]), 0)))
-        guts_line.append(int(round(sum(guts_line[1:]) / len(guts_line[1:]), 0)))
-        wiz_line.append(int(round(sum(wiz_line[1:]) / len(wiz_line[1:]), 0)))
-        rank_score_line.append(int(round(sum(rank_score_line[1:]) / len(rank_score_line[1:]), 0)))
+            properTypeLine.append(proper_type)
+            properValueLine.append(proper_value)
+            speedLine.append(trained_chara["speed"])
+            staminaLine.append(trained_chara["stamina"])
+            powerLine.append(trained_chara["power"])
+            gutsLine.append(trained_chara["guts"])
+            wizLine.append(trained_chara["wiz"])
+            rankScoreLine.append(trained_chara["rank_score"])
+        properTypeLine.append("平均")
+        properValueLine.append("/ / /")
+        speedLine.append(
+            int(round(sum(speedLine[1:]) / len(speedLine[1:]), 0)))
+        staminaLine.append(
+            int(round(sum(staminaLine[1:]) / len(staminaLine[1:]), 0)))
+        powerLine.append(
+            int(round(sum(powerLine[1:]) / len(powerLine[1:]), 0)))
+        gutsLine.append(int(round(sum(gutsLine[1:]) / len(gutsLine[1:]), 0)))
+        wizLine.append(int(round(sum(wizLine[1:]) / len(wizLine[1:]), 0)))
+        rankScoreLine.append(
+            int(round(sum(rankScoreLine[1:]) / len(rankScoreLine[1:]), 0))
+        )
         field_names.append("综合")
         table.field_names = field_names
-        table.add_row(proper_type_line)
-        table.add_row(proper_value_line)
-        table.add_row(speed_line)
-        table.add_row(stamina_line)
-        table.add_row(power_line)
-        table.add_row(guts_line)
-        table.add_row(wiz_line)
-        table.add_row(rank_score_line)
+        table.add_row(properTypeLine)
+        table.add_row(properValueLine)
+        table.add_row(speedLine)
+        table.add_row(staminaLine)
+        table.add_row(powerLine)
+        table.add_row(gutsLine)
+        table.add_row(wizLine)
+        table.add_row(rankScoreLine)
         print(table)
+
 
 
 def ParseChampionsRaceStartResponse(msg):
