@@ -1023,6 +1023,22 @@
     "group_id": 10052,
     "group_rate": 1
   },
+  "100531": {
+    "id": 100531,
+    "name_jp": "熱血！！風紀アタック",
+    "name_zh": "熱血！！風紀アタック",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "phase>=2&order_rate>=50&is_finalcorner==1&bashin_diff_infront<=1",
+    "condition_2": "",
+    "describe": "終盤最終コーナー以降に後方から迫ると\\n短い間加速力がちょっと上がり\\n追い抜くと3回まで効果と時間が増える",
+    "icon_id": 20043,
+    "group_id": 10053,
+    "group_rate": 1
+  },
   "100561": {
     "id": 100561,
     "name_jp": "来ます来てます来させます！",
@@ -8989,6 +9005,22 @@
     "describe": "最終コーナーで後ろの方にいると近くの\\nウマ娘を見て持久力をわずかに回復する",
     "icon_id": 20021,
     "group_id": 90052,
+    "group_rate": 2
+  },
+  "900531": {
+    "id": 900531,
+    "name_jp": "熱血！！風紀アタック",
+    "name_zh": "熱血！！風紀アタック",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "phase>=2&order_rate>=50&is_finalcorner==1&bashin_diff_infront<=1",
+    "condition_2": "",
+    "describe": "終盤最終コーナー以降に後方から迫ると\\n短い間加速力がほんのちょっと上がり\\n追い抜くと3回まで効果と時間が増える",
+    "icon_id": 20041,
+    "group_id": 90053,
     "group_rate": 2
   },
   "900561": {

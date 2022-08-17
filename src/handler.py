@@ -123,8 +123,8 @@ def ParseSingleModeCheckEventResponse(msg):
                         data["chara_info"]["speed"],
                         data["chara_info"]["stamina"],
                         data["chara_info"]["power"],
-                        data["chara_info"]["wiz"],
                         data["chara_info"]["guts"],
+                        data["chara_info"]["wiz"],
                         str(data["chara_info"]["vital"])
                         + "/"
                         + str(data["chara_info"]["max_vital"]),

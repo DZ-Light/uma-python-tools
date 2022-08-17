@@ -948,6 +948,19 @@
     "running_style": "差",
     "available_skill_set_id": 105202
   },
+  "105301": {
+    "id": 105301,
+    "name_jp": "[黒鉄の大志]バンブーメモリー",
+    "name_zh": "[黒鉄の大志]青竹回忆",
+    "nickname": "青竹回忆",
+    "talent_speed": 10,
+    "talent_stamina": 0,
+    "talent_pow": 10,
+    "talent_guts": 10,
+    "talent_wiz": 0,
+    "running_style": "差",
+    "available_skill_set_id": 105301
+  },
   "105601": {
     "id": 105601,
     "name_jp": "[運気上昇☆幸福万来]マチカネフクキタル",
