@@ -1396,6 +1396,17 @@
     "effect_table_id": 20049,
     "command_id": 106
   },
+  "20050": {
+    "id": 20050,
+    "name_jp": "[ゆるっと、まにまに]セイウンスカイ",
+    "name_zh": "[ゆるっと、まにまに]星云天空",
+    "short_name": "[智]星云天空",
+    "rarity": "SR",
+    "type": "智",
+    "unique_effect_id": 20050,
+    "effect_table_id": 20050,
+    "command_id": 106
+  },
   "30001": {
     "id": 30001,
     "name_jp": "[日本一のステージを]スペシャルウィーク",
@@ -2517,5 +2528,16 @@
     "unique_effect_id": 30109,
     "effect_table_id": 30109,
     "command_id": 103
+  },
+  "30110": {
+    "id": 30110,
+    "name_jp": "[It's on the house.]マンハッタンカフェ",
+    "name_zh": "[It's on the house.]曼城茶座",
+    "short_name": "[耐]曼城茶座",
+    "rarity": "SSR",
+    "type": "耐",
+    "unique_effect_id": 30110,
+    "effect_table_id": 30110,
+    "command_id": 105
   }
 }

@@ -1182,6 +1182,19 @@
     "running_style": "差",
     "available_skill_set_id": 107401
   },
+  "109801": {
+    "id": 109801,
+    "name_jp": "[陰陽八卦☆開運衣]コパノリッキー",
+    "name_zh": "[陰陽八卦☆開運衣]コパノリッキー",
+    "nickname": "コパノリッキー",
+    "talent_speed": 0,
+    "talent_stamina": 0,
+    "talent_pow": 10,
+    "talent_guts": 0,
+    "talent_wiz": 20,
+    "running_style": "先",
+    "available_skill_set_id": 109801
+  },
   "9100101": {
     "id": 9100101,
     "name_jp": "[スペシャルドリーマー]スペシャルウィーク",
