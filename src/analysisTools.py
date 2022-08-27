@@ -17,8 +17,7 @@ def move_race_data(path):
                     if "Q.msgpack" in name:
                         offset = struct.unpack_from("<i", msg, 0)[0]
                         msg = msg[4 + offset:]
-                    msg = msgpack.loads(msg, strict_map_key=False)
-
+                    msg = umsgpack.unpackb(msg)
                 if "Q.msgpack" in name:
                     os.remove(os.path.join(root, name))
                 else:

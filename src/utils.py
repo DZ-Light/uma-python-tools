@@ -5,7 +5,7 @@ import sqlite3
 import struct
 from decimal import *
 
-import msgpack
+import umsgpack
 from prettytable import PrettyTable
 from pykakasi import kakasi
 
@@ -167,11 +167,11 @@ def calc(chara_info):
     skill_point = chara_info["skill_point"]
     hint_array = [0, 10, 20, 30, 35, 40]
     max_rank_point = 0
-    max_rank_point += basicPoint[chara_info["speed"]]
-    max_rank_point += basicPoint[chara_info["stamina"]]
-    max_rank_point += basicPoint[chara_info["power"]]
-    max_rank_point += basicPoint[chara_info["wiz"]]
-    max_rank_point += basicPoint[chara_info["guts"]]
+    max_rank_point += basicPoint[chara_info["speed"]] if chara_info["speed"] < 1200 else basicPoint[1200]
+    max_rank_point += basicPoint[chara_info["stamina"]] if chara_info["stamina"] < 1200 else basicPoint[1200]
+    max_rank_point += basicPoint[chara_info["power"]] if chara_info["power"] < 1200 else basicPoint[1200]
+    max_rank_point += basicPoint[chara_info["wiz"]] if chara_info["wiz"] < 1200 else basicPoint[1200]
+    max_rank_point += basicPoint[chara_info["guts"]] if chara_info["guts"] < 1200 else basicPoint[1200]
     max_rank_point += chara_info["skill_array"][0]["level"] * (170 if chara_info["rarity"] > 2 else 120)
     skill_tips_map = {}
     for skill in skill_array:
@@ -339,7 +339,7 @@ def convert_msgpack_json(new_path, name):
         if "Q.msgpack" in name:
             offset = struct.unpack_from("<i", msg, 0)[0]
             msg = msg[4 + offset:]
-        msg = msgpack.loads(msg, strict_map_key=False)
+        msg = umsgpack.unpackb(msg)
     if not os.path.exists("../Json/" + new_path):
         os.makedirs("../Json/" + new_path)
     with open(

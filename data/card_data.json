@@ -883,6 +883,19 @@
     "running_style": "逃",
     "available_skill_set_id": 104601
   },
+  "104602": {
+    "id": 104602,
+    "name_jp": "[黄昏トライアンフ]スマートファルコン",
+    "name_zh": "[黄昏トライアンフ]醒目飞鹰",
+    "nickname": "醒目飞鹰",
+    "talent_speed": 20,
+    "talent_stamina": 0,
+    "talent_pow": 0,
+    "talent_guts": 10,
+    "talent_wiz": 0,
+    "running_style": "逃",
+    "available_skill_set_id": 104602
+  },
   "104801": {
     "id": 104801,
     "name_jp": "[ポップス☆ジョーカー]トーセンジョーダン",

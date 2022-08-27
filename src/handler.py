@@ -1,5 +1,6 @@
 from utils import *
 
+
 def ParseCommandInfo(msg):
     data = msg["data"]
     with open(supportCardPath, "r", encoding="utf-8") as load_f:
@@ -39,6 +40,8 @@ def ParseCommandInfo(msg):
             103: "乙名史记者",
             104: "桐生院葵",
             106: "代理理事长",
+            107: "庸医",
+            108: "庄主"
         }
         for partner in command["training_partner_array"]:
             if partner in supportCard:
@@ -92,10 +95,37 @@ def ParseCommandInfo(msg):
     table.add_column(failureRate[106], commandInfo[106])
     print(table)
     value = (msg["data_headers"]["viewer_id"], data["chara_info"]["single_mode_chara_id"], data["chara_info"]["turn"],
-             data["chara_info"]["speed"], data["chara_info"]["stamina"], data["chara_info"]["power"], data["chara_info"]["guts"],
+             data["chara_info"]["speed"], data["chara_info"]["stamina"], data["chara_info"]["power"],
+             data["chara_info"]["guts"],
              data["chara_info"]["wiz"], data["chara_info"]["vital"], data["chara_info"]["max_vital"],
              data["chara_info"]["motivation"], data["chara_info"]["fans"], data["chara_info"]["skill_point"])
     insert_log(value)
+    if json_has_text(msg, "live_data_set"):
+        chara_info = PrettyTable(["スピ", "スタ", "パワ", "根性", "賢さ", "体力"])
+        chara_info.add_row(
+            [
+                data["chara_info"]["speed"],
+                data["chara_info"]["stamina"],
+                data["chara_info"]["power"],
+                data["chara_info"]["guts"],
+                data["chara_info"]["wiz"],
+                str(data["chara_info"]["vital"])
+                + "/"
+                + str(data["chara_info"]["max_vital"]),
+            ]
+        )
+        print(chara_info)
+        live_info = data["live_data_set"]["live_performance_info"]
+        live_table = PrettyTable(["Da", "Pa", "Vo", "Vi", "Me"])
+        live_table.add_row(
+            [
+                str(live_info["dance"]) + "/" + str(live_info["max_dance"]),
+                str(live_info["passion"]) + "/" + str(live_info["max_passion"]),
+                str(live_info["vocal"]) + "/" + str(live_info["max_vocal"]),
+                str(live_info["visual"]) + "/" + str(live_info["max_visual"]),
+                str(live_info["mental"]) + "/" + str(live_info["max_mental"])
+            ])
+        print(live_table)
 
 
 def ParseSingleModeCheckEventResponse(msg):
@@ -260,8 +290,7 @@ def ParseTeamStadiumOpponentListResponse(msg):
                 break
             for trained_chara in i["trained_chara_array"]:
                 if trained_chara["trained_chara_id"] == team_data["trained_chara_id"]:
-                    field_names.append(
-                        card_dict[str(trained_chara["card_id"])]["nickname"])
+                    field_names.append(card_dict[str(trained_chara["card_id"])]["nickname"])
                     break
             proper_type = ""
             proper_value = ""
@@ -361,7 +390,6 @@ def ParseTeamStadiumOpponentListResponse(msg):
         table.add_row(wizLine)
         table.add_row(rankScoreLine)
         print(table)
-
 
 
 def ParseChampionsRaceStartResponse(msg):

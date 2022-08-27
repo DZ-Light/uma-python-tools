@@ -868,6 +868,17 @@
     "effect_table_id": 10081,
     "command_id": 103
   },
+  "10083": {
+    "id": 10083,
+    "name_jp": "[イベントプロデューサー]ライトハロー",
+    "name_zh": "[イベントプロデューサー]ライトハロー",
+    "short_name": "[友]ライトハロー",
+    "rarity": "R",
+    "type": "友",
+    "unique_effect_id": 0,
+    "effect_table_id": 10083,
+    "command_id": 0
+  },
   "20001": {
     "id": 20001,
     "name_jp": "[やれやれ、お帰り]フジキセキ",
@@ -1913,6 +1924,17 @@
     "effect_table_id": 30048,
     "command_id": 103
   },
+  "30052": {
+    "id": 30052,
+    "name_jp": "[from the GROUND UP]ライトハロー",
+    "name_zh": "[from the GROUND UP]ライトハロー",
+    "short_name": "[友]ライトハロー",
+    "rarity": "SSR",
+    "type": "友",
+    "unique_effect_id": 30052,
+    "effect_table_id": 30052,
+    "command_id": 0
+  },
   "30053": {
     "id": 30053,
     "name_jp": "[Hands up, crook!]タイキシャトル",
@@ -2441,6 +2463,17 @@
     "effect_table_id": 30100,
     "command_id": 106
   },
+  "30101": {
+    "id": 30101,
+    "name_jp": "[Q≠0]アグネスタキオン",
+    "name_zh": "[Q≠0]爱丽速子",
+    "short_name": "[速]爱丽速子",
+    "rarity": "SSR",
+    "type": "速",
+    "unique_effect_id": 30101,
+    "effect_table_id": 30101,
+    "command_id": 101
+  },
   "30102": {
     "id": 30102,
     "name_jp": "[キラキラカケル∞]エルコンドルパサー",
@@ -2539,5 +2572,16 @@
     "unique_effect_id": 30110,
     "effect_table_id": 30110,
     "command_id": 105
+  },
+  "30121": {
+    "id": 30121,
+    "name_jp": "[U & Me]ミホノブルボン",
+    "name_zh": "[U & Me]美浦波旁",
+    "short_name": "[速]美浦波旁",
+    "rarity": "SSR",
+    "type": "速",
+    "unique_effect_id": 30121,
+    "effect_table_id": 30121,
+    "command_id": 101
   }
 }

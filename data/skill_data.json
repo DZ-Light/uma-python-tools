@@ -1631,6 +1631,22 @@
     "group_id": 11045,
     "group_rate": 1
   },
+  "110461": {
+    "id": 110461,
+    "name_jp": "α-star*",
+    "name_zh": "α-star*",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "distance_rate>=40&distance_rate<=50&distance_diff_rate<=10&ground_type==2",
+    "condition_2": "distance_rate>=40&distance_rate<=50&distance_diff_rate<=10",
+    "describe": "レース中間付近で先頭付近だと速度が\\n少しずつ上がる、ダートレースでは\\nさらに持久力が少し回復する",
+    "icon_id": 20013,
+    "group_id": 11046,
+    "group_rate": 1
+  },
   "110521": {
     "id": 110521,
     "name_jp": "113転び114起き",
@@ -8543,6 +8559,38 @@
     "group_id": 20236,
     "group_rate": 1
   },
+  "202371": {
+    "id": 202371,
+    "name_jp": "アンストッパブル",
+    "name_zh": "アンストッパブル",
+    "need_skill_point": 180,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 22000,
+    "condition_1": "phase_random==1&running_style==2",
+    "condition_2": "",
+    "describe": "レース中盤に速度が上がる\\n＜作戦・先行＞",
+    "icon_id": 20012,
+    "group_id": 20237,
+    "group_rate": 2
+  },
+  "202372": {
+    "id": 202372,
+    "name_jp": "攻めの姿勢",
+    "name_zh": "攻めの姿勢",
+    "need_skill_point": 180,
+    "grade_value": 217,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 22010,
+    "condition_1": "phase_random==1&running_style==2",
+    "condition_2": "",
+    "describe": "レース中盤に速度がわずかに上がる\\n＜作戦・先行＞",
+    "icon_id": 20011,
+    "group_id": 20237,
+    "group_rate": 1
+  },
   "210011": {
     "id": 210011,
     "name_jp": "アオハル燃焼・速",
@@ -8733,6 +8781,38 @@
     "describe": "レース後半に\\nちょっと呼吸を整え前へ踏み込む\\n育成で重ねた勝利の数だけ効果が高まる",
     "icon_id": 20141,
     "group_id": 21006,
+    "group_rate": 1
+  },
+  "210071": {
+    "id": 210071,
+    "name_jp": "キミと勝ちたい",
+    "name_zh": "キミと勝ちたい",
+    "need_skill_point": 200,
+    "grade_value": 633,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 31012,
+    "condition_1": "distance_rate_after_random==50&order_rate<=65",
+    "condition_2": "",
+    "describe": "レース後半に前の方だと速度が上がり\\nさらに加速力がわずかに上がる\\nファンが多いほど効果が高まる",
+    "icon_id": 20152,
+    "group_id": 21007,
+    "group_rate": 2
+  },
+  "210072": {
+    "id": 210072,
+    "name_jp": "夢の途中",
+    "name_zh": "夢の途中",
+    "need_skill_point": 200,
+    "grade_value": 263,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 31013,
+    "condition_1": "distance_rate_after_random==50&order_rate<=65",
+    "condition_2": "",
+    "describe": "レース後半に前の方だと速度がわずかに\\n上がり、加速力がほんのわずかに上がる\\nファンが多いほど効果が高まる",
+    "icon_id": 20151,
+    "group_id": 21007,
     "group_rate": 1
   },
   "300011": {
@@ -10317,6 +10397,22 @@
     "describe": "最終直線を好位置で走行中\\n前のウマ娘との距離が近いと\\nちょっと抜け出しやすくなる",
     "icon_id": 20011,
     "group_id": 91045,
+    "group_rate": 2
+  },
+  "910461": {
+    "id": 910461,
+    "name_jp": "α-star*",
+    "name_zh": "α-star*",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "distance_rate>=40&distance_rate<=50&distance_diff_rate<=10&ground_type==2",
+    "condition_2": "distance_rate>=40&distance_rate<=50&distance_diff_rate<=10",
+    "describe": "レース中間付近で先頭付近だと速度が\\nちょっとずつ上がる、ダートレースでは\\nさらに持久力がちょっと回復する",
+    "icon_id": 20011,
+    "group_id": 91046,
     "group_rate": 2
   },
   "910521": {

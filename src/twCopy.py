@@ -1,4 +1,5 @@
 from utils import *
+
 jp_dbPath = "../master_jp/master.mdb"
 tw_dbPath = "../master_tw/master.mdb"
 move_file(os.path.expanduser('~') + "/AppData/LocalLow/Cygames/umamusume/master", "../master_jp/", "master.mdb")
@@ -26,7 +27,8 @@ tw_rows = tw_cur.fetchall()
 i = 0
 for tw_tuples in tw_rows:
     for jp_tuples in jp_rows:
-        if tw_tuples[1] == jp_tuples[1] and tw_tuples[2] == jp_tuples[2] and tw_tuples[3] == jp_tuples[3] and tw_tuples[0] != jp_tuples[0]:
+        if tw_tuples[1] == jp_tuples[1] and tw_tuples[2] == jp_tuples[2] and tw_tuples[3] == jp_tuples[3] and tw_tuples[
+            0] != jp_tuples[0]:
             sql = '''
                 update text_data
                 set text = ?
