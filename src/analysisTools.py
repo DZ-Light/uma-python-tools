@@ -118,10 +118,12 @@ if __name__ == "__main__":
     system_name = platform.system()
     if system_name == "Windows":
         msgpack_path_jp = os.path.expanduser('~') + "/DMMGAME/Umamusume/CarrotJuicer"
+        msgpack_path_new = os.path.expanduser('~') + "/Documents/GitHub/AzusaHikari/uma-notify-analyzer/packets"
         msgpack_path_tw = os.path.expanduser('~') + "/AppData/Local/UmamusumeResponseAnalyzer/packets"
         while 1:
             try:
                 move_race_data(msgpack_path_jp)
+                move_race_data(msgpack_path_new)
                 move_race_data(msgpack_path_tw)
             except Exception as ex:
                 print(color("出现如下异常%s" % ex, for_color=31))

@@ -814,7 +814,6 @@ def init_data():
         cursor, itemPath, select_item_data)
     print("数据操作成功")
     connection.close()
-    move_file("../data", os.path.expanduser('~') + "/DMMGAME/Umamusume", "cjedb.json")
 
 
 def insert_log(value):

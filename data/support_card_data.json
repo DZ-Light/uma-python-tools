@@ -2573,6 +2573,39 @@
     "effect_table_id": 30110,
     "command_id": 105
   },
+  "30111": {
+    "id": 30111,
+    "name_jp": "[テイオー・オー・オー！！！]トウカイテイオー",
+    "name_zh": "[テイオー・オー・オー！！！]东海帝王",
+    "short_name": "[智]东海帝王",
+    "rarity": "SSR",
+    "type": "智",
+    "unique_effect_id": 30111,
+    "effect_table_id": 30111,
+    "command_id": 106
+  },
+  "30112": {
+    "id": 30112,
+    "name_jp": "[TT Ignition!]ツインターボ",
+    "name_zh": "[TT Ignition!]双涡轮",
+    "short_name": "[根]双涡轮",
+    "rarity": "SSR",
+    "type": "根",
+    "unique_effect_id": 30112,
+    "effect_table_id": 30112,
+    "command_id": 103
+  },
+  "30113": {
+    "id": 30113,
+    "name_jp": "[ユークロニア・アーキテクト]ビワハヤヒデ",
+    "name_zh": "[ユークロニア・アーキテクト]琵琶晨光",
+    "short_name": "[耐]琵琶晨光",
+    "rarity": "SSR",
+    "type": "耐",
+    "unique_effect_id": 30113,
+    "effect_table_id": 30113,
+    "command_id": 105
+  },
   "30121": {
     "id": 30121,
     "name_jp": "[U & Me]ミホノブルボン",
