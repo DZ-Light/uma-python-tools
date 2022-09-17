@@ -623,6 +623,19 @@
     "running_style": "先",
     "available_skill_set_id": 102801
   },
+  "102901": {
+    "id": 102901,
+    "name_jp": "[めんこいめんこいむつのはな]ユキノビジン",
+    "name_zh": "[めんこいめんこいむつのはな]雪之美人",
+    "nickname": "雪之美人",
+    "talent_speed": 10,
+    "talent_stamina": 0,
+    "talent_pow": 0,
+    "talent_guts": 20,
+    "talent_wiz": 0,
+    "running_style": "先",
+    "available_skill_set_id": 102901
+  },
   "103001": {
     "id": 103001,
     "name_jp": "[ローゼスドリーム]ライスシャワー",

@@ -42955,6 +42955,1386 @@
       }
     ]
   },
+  "501029100": {
+    "storyId": 501029100,
+    "storyName": "ユキノビジン登場！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029101": {
+    "storyId": 501029101,
+    "storyName": "新年の抱負",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029102": {
+    "storyId": 501029102,
+    "storyName": "初詣",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029103": {
+    "storyId": 501029103,
+    "storyName": "夏合宿（2年目）スタート！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029104": {
+    "storyId": 501029104,
+    "storyName": "夏合宿（2年目）にて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029105": {
+    "storyId": 501029105,
+    "storyName": "夏合宿（3年目）スタート！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029107": {
+    "storyId": 501029107,
+    "storyName": "バレンタイン",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029108": {
+    "storyId": 501029108,
+    "storyName": "ファン感謝祭",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029109": {
+    "storyId": 501029109,
+    "storyName": "クリスマス",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029110": {
+    "storyId": 501029110,
+    "storyName": "エンディング（ノーマル）",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029111": {
+    "storyId": 501029111,
+    "storyName": "“ユキノビジン”",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029112": {
+    "storyId": 501029112,
+    "storyName": "温泉旅行",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029113": {
+    "storyId": 501029113,
+    "storyName": "憧れ、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029114": {
+    "storyId": 501029114,
+    "storyName": "ブーム、ブーム！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029115": {
+    "storyId": 501029115,
+    "storyName": "夜空にひかる",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029116": {
+    "storyId": 501029116,
+    "storyName": "なみだ、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029117": {
+    "storyId": 501029117,
+    "storyName": "金色に、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029118": {
+    "storyId": 501029118,
+    "storyName": "ティアラの夢の、その先は",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029200": {
+    "storyId": 501029200,
+    "storyName": "デビュー戦にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029201": {
+    "storyId": 501029201,
+    "storyName": "阪神JFにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029202": {
+    "storyId": 501029202,
+    "storyName": "桜花賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029203": {
+    "storyId": 501029203,
+    "storyName": "オークスにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029204": {
+    "storyId": 501029204,
+    "storyName": "クイーンSにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029205": {
+    "storyId": 501029205,
+    "storyName": "マイルCS南部杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029206": {
+    "storyId": 501029206,
+    "storyName": "秋華賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029207": {
+    "storyId": 501029207,
+    "storyName": "秋華賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029208": {
+    "storyId": 501029208,
+    "storyName": "大阪杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029209": {
+    "storyId": 501029209,
+    "storyName": "ヴィクトリアマイルにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029210": {
+    "storyId": 501029210,
+    "storyName": "マイルCS南部杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029211": {
+    "storyId": 501029211,
+    "storyName": "エリザベス女王杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029212": {
+    "storyId": 501029212,
+    "storyName": "ジャパンCにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029300": {
+    "storyId": 501029300,
+    "storyName": "夏合宿（2年目）終了",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029301": {
+    "storyId": 501029301,
+    "storyName": "夏合宿（3年目）終了",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029302": {
+    "storyId": 501029302,
+    "storyName": "福引チャンス！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029303": {
+    "storyId": 501029303,
+    "storyName": "デビュー戦の後に・ここから！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029304": {
+    "storyId": 501029304,
+    "storyName": "阪神JFの後に・しばしの",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029305": {
+    "storyId": 501029305,
+    "storyName": "桜花賞の後に・芽生え",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029306": {
+    "storyId": 501029306,
+    "storyName": "オークスの後に・天使？",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029307": {
+    "storyId": 501029307,
+    "storyName": "オークスの後に・天使！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029308": {
+    "storyId": 501029308,
+    "storyName": "クイーンSの後に・きっと！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029309": {
+    "storyId": 501029309,
+    "storyName": "クイーンSの後に・絶対！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029310": {
+    "storyId": 501029310,
+    "storyName": "マイルCS南部杯の後に・キラキラ繋ぐ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029311": {
+    "storyId": 501029311,
+    "storyName": "秋華賞の後に・変わったのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029312": {
+    "storyId": 501029312,
+    "storyName": "秋華賞の後に・変わったのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029313": {
+    "storyId": 501029313,
+    "storyName": "大阪杯の後に・リスタート",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029314": {
+    "storyId": 501029314,
+    "storyName": "ヴィクトリアマイルの後に・前へ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029315": {
+    "storyId": 501029315,
+    "storyName": "マイルCS南部杯の後に・キラキラ繋ぐ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029316": {
+    "storyId": 501029316,
+    "storyName": "エリザベス女王杯の後に・掴んだのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029317": {
+    "storyId": 501029317,
+    "storyName": "ジャパンCの後に・キラキラ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029400": {
+    "storyId": 501029400,
+    "storyName": "ユキノビジン登場！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029401": {
+    "storyId": 501029401,
+    "storyName": "憧れ、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029402": {
+    "storyId": 501029402,
+    "storyName": "ブーム、ブーム！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029403": {
+    "storyId": 501029403,
+    "storyName": "夜空にひかる",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029404": {
+    "storyId": 501029404,
+    "storyName": "なみだ、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029405": {
+    "storyId": 501029405,
+    "storyName": "金色に、きらり",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029406": {
+    "storyId": 501029406,
+    "storyName": "夏合宿（2年目）スタート！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029407": {
+    "storyId": 501029407,
+    "storyName": "夏合宿（3年目）スタート！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029408": {
+    "storyId": 501029408,
+    "storyName": "デビュー戦にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029409": {
+    "storyId": 501029409,
+    "storyName": "阪神JFにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029410": {
+    "storyId": 501029410,
+    "storyName": "桜花賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029411": {
+    "storyId": 501029411,
+    "storyName": "オークスにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029412": {
+    "storyId": 501029412,
+    "storyName": "クイーンSにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029413": {
+    "storyId": 501029413,
+    "storyName": "マイルCS南部杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029414": {
+    "storyId": 501029414,
+    "storyName": "秋華賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029415": {
+    "storyId": 501029415,
+    "storyName": "秋華賞にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029416": {
+    "storyId": 501029416,
+    "storyName": "大阪杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029417": {
+    "storyId": 501029417,
+    "storyName": "ヴィクトリアマイルにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029418": {
+    "storyId": 501029418,
+    "storyName": "マイルCS南部杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029419": {
+    "storyId": 501029419,
+    "storyName": "エリザベス女王杯にむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029420": {
+    "storyId": 501029420,
+    "storyName": "ジャパンCにむけて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029421": {
+    "storyId": 501029421,
+    "storyName": "デビュー戦の後に・ここから！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029422": {
+    "storyId": 501029422,
+    "storyName": "阪神JFの後に・しばしの",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029423": {
+    "storyId": 501029423,
+    "storyName": "桜花賞の後に・芽生え",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029424": {
+    "storyId": 501029424,
+    "storyName": "オークスの後に・天使？",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029425": {
+    "storyId": 501029425,
+    "storyName": "オークスの後に・天使！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029426": {
+    "storyId": 501029426,
+    "storyName": "クイーンSの後に・きっと！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029427": {
+    "storyId": 501029427,
+    "storyName": "クイーンSの後に・絶対！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029428": {
+    "storyId": 501029428,
+    "storyName": "マイルCS南部杯の後に・キラキラ繋ぐ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029429": {
+    "storyId": 501029429,
+    "storyName": "秋華賞の後に・変わったのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029430": {
+    "storyId": 501029430,
+    "storyName": "秋華賞の後に・変わったのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029431": {
+    "storyId": 501029431,
+    "storyName": "大阪杯の後に・リスタート",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029432": {
+    "storyId": 501029432,
+    "storyName": "ヴィクトリアマイルの後に・前へ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029433": {
+    "storyId": 501029433,
+    "storyName": "マイルCS南部杯の後に・キラキラ繋ぐ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029434": {
+    "storyId": 501029434,
+    "storyName": "エリザベス女王杯の後に・掴んだのは",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029435": {
+    "storyId": 501029435,
+    "storyName": "ジャパンCの後に・キラキラ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029500": {
+    "storyId": 501029500,
+    "storyName": "名指導",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029506": {
+    "storyId": 501029506,
+    "storyName": "ダンスレッスン",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029507": {
+    "storyId": 501029507,
+    "storyName": "ファンレター",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029508": {
+    "storyId": 501029508,
+    "storyName": "レース疲れ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029509": {
+    "storyId": 501029509,
+    "storyName": "連続出走で……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029510": {
+    "storyId": 501029510,
+    "storyName": "めんこい人形",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029511": {
+    "storyId": 501029511,
+    "storyName": "美浦寮物産展へようこそ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029513": {
+    "storyId": 501029513,
+    "storyName": "ふるさと、想えば",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029514": {
+    "storyId": 501029514,
+    "storyName": "イマドキ♪お出かけコース",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029515": {
+    "storyId": 501029515,
+    "storyName": "山育ちはたくましい",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029516": {
+    "storyId": 501029516,
+    "storyName": "丸い誘惑",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029517": {
+    "storyId": 501029517,
+    "storyName": "最先端……のはずが！？",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029518": {
+    "storyId": 501029518,
+    "storyName": "筋肉痛の理由は……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029519": {
+    "storyId": 501029519,
+    "storyName": "溶けない雪って？",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029520": {
+    "storyId": 501029520,
+    "storyName": "わくわく畑仕事",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029521": {
+    "storyId": 501029521,
+    "storyName": "夜ふかし気味で……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029522": {
+    "storyId": 501029522,
+    "storyName": "お肌の調子が……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029523": {
+    "storyId": 501029523,
+    "storyName": "穴場巡りの巻",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029524": {
+    "storyId": 501029524,
+    "storyName": "“シチーガール”になるために",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029600": {
+    "storyId": 501029600,
+    "storyName": "武者震い",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029601": {
+    "storyId": 501029601,
+    "storyName": "今度こそ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029700": {
+    "storyId": 501029700,
+    "storyName": "寝不足で……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029701": {
+    "storyId": 501029701,
+    "storyName": "休息はバッチリ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029702": {
+    "storyId": 501029702,
+    "storyName": "新たなチャレンジだべ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029703": {
+    "storyId": 501029703,
+    "storyName": "シチーさんと猛特訓だべ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029704": {
+    "storyId": 501029704,
+    "storyName": "撮影本番だべ！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029705": {
+    "storyId": 501029705,
+    "storyName": "幻想、星めぐりへ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029706": {
+    "storyId": 501029706,
+    "storyName": "静かにしてくなンしぇ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029707": {
+    "storyId": 501029707,
+    "storyName": "神社でお祈り！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029708": {
+    "storyId": 501029708,
+    "storyName": "レース勝利！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029709": {
+    "storyId": 501029709,
+    "storyName": "レース入着",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029710": {
+    "storyId": 501029710,
+    "storyName": "レース敗北",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029711": {
+    "storyId": 501029711,
+    "storyName": "今度こそ負けない！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029712": {
+    "storyId": 501029712,
+    "storyName": "不在の理由は……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029713": {
+    "storyId": 501029713,
+    "storyName": "お大事に！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029714": {
+    "storyId": 501029714,
+    "storyName": "無茶は厳禁！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029715": {
+    "storyId": 501029715,
+    "storyName": "追加の自主トレ",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029716": {
+    "storyId": 501029716,
+    "storyName": "ダイエット成功！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029717": {
+    "storyId": 501029717,
+    "storyName": "保健室にて",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029718": {
+    "storyId": 501029718,
+    "storyName": "リフレッシュ完了",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029719": {
+    "storyId": 501029719,
+    "storyName": "都会の誘惑……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029720": {
+    "storyId": 501029720,
+    "storyName": "あんし～ん笹針師、参☆上",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029722": {
+    "storyId": 501029722,
+    "storyName": "頭痛で憂鬱",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029726": {
+    "storyId": 501029726,
+    "storyName": "クレーンゲームに挑戦！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029727": {
+    "storyId": 501029727,
+    "storyName": "クレーンゲーム大成功！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029728": {
+    "storyId": 501029728,
+    "storyName": "クレーンゲーム成功！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029729": {
+    "storyId": 501029729,
+    "storyName": "クレーンゲーム失敗……",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029730": {
+    "storyId": 501029730,
+    "storyName": "クレーンゲーム大成功！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029731": {
+    "storyId": 501029731,
+    "storyName": "クレーンゲーム成功！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029732": {
+    "storyId": 501029732,
+    "storyName": "想いの継承",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029733": {
+    "storyId": 501029733,
+    "storyName": "想いの継承",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029900": {
+    "storyId": 501029900,
+    "storyName": "自己紹介",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
+  "501029901": {
+    "storyId": 501029901,
+    "storyName": "グランドライブ、スタート！",
+    "choices": [
+      {
+        "title": "",
+        "text": ""
+      }
+    ]
+  },
   "501030100": {
     "storyId": 501030100,
     "storyName": "ライスシャワー登場！",
