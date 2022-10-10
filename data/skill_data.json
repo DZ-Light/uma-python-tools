@@ -666,7 +666,7 @@
     "disp_order": 10,
     "condition_1": "distance_rate>=50&order_rate>=40&order_rate<=70",
     "condition_2": "",
-    "describe": "レース後半に中団から\\n『お友達』を追って速度を少しずつ上げ\\n前方のウマ娘をちょっと委縮させる",
+    "describe": "レース後半に中団から\\n『お友達』を追って速度を少しずつ上げ\\n前方のウマ娘をちょっと萎縮させる",
     "icon_id": 20013,
     "group_id": 10025,
     "group_rate": 1
@@ -925,6 +925,22 @@
     "describe": "レース後半に前の方で競り合うと\\nバクシン力（？）を発揮、速度が上がる",
     "icon_id": 20013,
     "group_id": 10041,
+    "group_rate": 1
+  },
+  "100421": {
+    "id": 100421,
+    "name_jp": "『I'm possible』",
+    "name_zh": "『I'm possible』",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "remain_distance<=201&remain_distance>=199&distance_diff_top<=5&order>=2",
+    "condition_2": "remain_distance<=201&remain_distance>=199&distance_diff_top<=10&order>=2",
+    "describe": "残り200ｍ地点で先頭ではないとき\\n先頭から4バ身以内だと速度を上げる\\n2バ身以内にいる場合はすごく上げる",
+    "icon_id": 20013,
+    "group_id": 10042,
     "group_rate": 1
   },
   "100441": {
@@ -1487,6 +1503,22 @@
     "group_id": 11018,
     "group_rate": 1
   },
+  "110191": {
+    "id": 110191,
+    "name_jp": "萌到讓我活過來了！",
+    "name_zh": "萌到讓我活過來了！",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "near_count>=3&phase==1&corner!=0&order_rate>=40",
+    "condition_2": "",
+    "describe": "中盤のコーナーで中団以降にいるとき\\n近くにウマ娘ちゃんが3人以上いると\\n萌えパワーで速度が上がる",
+    "icon_id": 20013,
+    "group_id": 11019,
+    "group_rate": 1
+  },
   "110201": {
     "id": 110201,
     "name_jp": "Do Ya Breakin!",
@@ -1725,6 +1757,22 @@
     "describe": "レース後半に後方で詰め寄られると\\nマシマシの幸運パワーが身体に実り\\n速度が上がる",
     "icon_id": 20013,
     "group_id": 11056,
+    "group_rate": 1
+  },
+  "110581": {
+    "id": 110581,
+    "name_jp": "Spooky-Scary-Happy",
+    "name_zh": "Spooky-Scary-Happy",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "is_last_straight_onetime==1&order_rate<=40",
+    "condition_2": "",
+    "describe": "最終直線に入ったとき前の方だと速度を\\n上げ、前2人後ろ2人までの\\nウマ娘をちょっと萎縮させる",
+    "icon_id": 20013,
+    "group_id": 11058,
     "group_rate": 1
   },
   "110591": {
@@ -5023,6 +5071,22 @@
     "group_id": 20096,
     "group_rate": 1
   },
+  "200963": {
+    "id": 200963,
+    "name_jp": "紫電一閃",
+    "name_zh": "紫電一閃",
+    "need_skill_point": 150,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 20005,
+    "condition_1": "distance_type==1&straight_random==1",
+    "condition_2": "",
+    "describe": "直線で速度が上がる＜短距離＞",
+    "icon_id": 20012,
+    "group_id": 20096,
+    "group_rate": 3
+  },
   "200971": {
     "id": 200971,
     "name_jp": "短距離コーナー◎",
@@ -7167,6 +7231,22 @@
     "group_id": 20165,
     "group_rate": 1
   },
+  "201652": {
+    "id": 201652,
+    "name_jp": "いいとこ入った！",
+    "name_zh": "いいとこ入った！",
+    "need_skill_point": 160,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 21335,
+    "condition_1": "infront_near_lane_time>=3&accumulatetime>=10",
+    "condition_2": "",
+    "describe": "前のウマ娘のすぐ後ろに付けると\\n風の抵抗を受けにくくなる",
+    "icon_id": 20012,
+    "group_id": 20165,
+    "group_rate": 2
+  },
   "201661": {
     "id": 201661,
     "name_jp": "遊びはおしまいっ！",
@@ -8586,7 +8666,7 @@
     "disp_order": 21980,
     "condition_1": "ground_type==2&distance_rate>=50&is_other_character_activate_advantage_skill==9",
     "condition_2": "",
-    "describe": "レース後半に息を入れたウマ娘を\\n委縮させる＜ダート＞",
+    "describe": "レース後半に息を入れたウマ娘を\\n萎縮させる＜ダート＞",
     "icon_id": 30012,
     "group_id": 20236,
     "group_rate": 2
@@ -8602,7 +8682,7 @@
     "disp_order": 21990,
     "condition_1": "ground_type==2&distance_rate>=50&is_other_character_activate_advantage_skill==9",
     "condition_2": "",
-    "describe": "レース後半に息を入れたウマ娘を\\nわずかに委縮させる＜ダート＞",
+    "describe": "レース後半に息を入れたウマ娘を\\nわずかに萎縮させる＜ダート＞",
     "icon_id": 30011,
     "group_id": 20236,
     "group_rate": 1
@@ -8701,6 +8781,38 @@
     "describe": "レース中盤始めの方に\\n持久力をすごく使って\\n速度を少し上げる＜作戦・逃げ＞",
     "icon_id": 20011,
     "group_id": 20239,
+    "group_rate": 1
+  },
+  "202401": {
+    "id": 202401,
+    "name_jp": "電光石火",
+    "name_zh": "電光石火",
+    "need_skill_point": 180,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 22060,
+    "condition_1": "distance_type==1&phase>=2&order_rate>=50&is_overtake==1@distance_type==2&phase>=2&order_rate>=50&is_overtake==1",
+    "condition_2": "",
+    "describe": "レース終盤に後方で追い抜こうとすると\\n加速力が上がる＜短距離/マイル＞",
+    "icon_id": 20042,
+    "group_id": 20240,
+    "group_rate": 2
+  },
+  "202402": {
+    "id": 202402,
+    "name_jp": "一足飛び",
+    "name_zh": "一足飛び",
+    "need_skill_point": 180,
+    "grade_value": 217,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 22070,
+    "condition_1": "distance_type==1&phase>=2&order_rate>=50&is_overtake==1@distance_type==2&phase>=2&order_rate>=50&is_overtake==1",
+    "condition_2": "",
+    "describe": "レース終盤に後方で追い抜こうとすると\\n加速力がわずかに上がる\\n＜短距離/マイル＞",
+    "icon_id": 20041,
+    "group_id": 20240,
     "group_rate": 1
   },
   "210011": {
@@ -9546,7 +9658,7 @@
     "disp_order": 30,
     "condition_1": "distance_rate>=50&order_rate>=40&order_rate<=70",
     "condition_2": "",
-    "describe": "レース後半に中団から\\n速度をちょっとずつ上げ前方のウマ娘を\\nほんのちょっと委縮させる",
+    "describe": "レース後半に中団から\\n速度をちょっとずつ上げ前方のウマ娘を\\nほんのちょっと萎縮させる",
     "icon_id": 20011,
     "group_id": 90025,
     "group_rate": 2
@@ -9805,6 +9917,22 @@
     "describe": "レース後半に前の方で競り合うと\\n速度がわずかに上がる",
     "icon_id": 20011,
     "group_id": 90041,
+    "group_rate": 2
+  },
+  "900421": {
+    "id": 900421,
+    "name_jp": "『I'm possible』",
+    "name_zh": "『I'm possible』",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "remain_distance<=201&remain_distance>=199&distance_diff_top<=5&order>=2",
+    "condition_2": "remain_distance<=201&remain_distance>=199&distance_diff_top<=10&order>=2",
+    "describe": "残り200ｍ地点で先頭ではないとき\\n先頭の4バ身以内で速度をわずかに上げ\\n2バ身以内にいる場合は少し上げる",
+    "icon_id": 20011,
+    "group_id": 90042,
     "group_rate": 2
   },
   "900441": {
@@ -10367,6 +10495,22 @@
     "group_id": 91018,
     "group_rate": 2
   },
+  "910191": {
+    "id": 910191,
+    "name_jp": "萌到讓我活過來了！",
+    "name_zh": "萌到讓我活過來了！",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "near_count>=3&phase==1&corner!=0&order_rate>=40",
+    "condition_2": "",
+    "describe": "中盤のコーナーで中団以降にいるとき\\n近くにウマ娘が3人以上いると\\n速度がわずかに上がる",
+    "icon_id": 20011,
+    "group_id": 91019,
+    "group_rate": 2
+  },
   "910201": {
     "id": 910201,
     "name_jp": "Do Ya Breakin!",
@@ -10605,6 +10749,22 @@
     "describe": "レース後半に後方で詰め寄られると\\n幸運パワーが身体に実り\\n速度がわずかに上がる",
     "icon_id": 20011,
     "group_id": 91056,
+    "group_rate": 2
+  },
+  "910581": {
+    "id": 910581,
+    "name_jp": "Spooky-Scary-Happy",
+    "name_zh": "Spooky-Scary-Happy",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "is_last_straight_onetime==1&order_rate<=40",
+    "condition_2": "",
+    "describe": "最終直線に入ったとき前の方だと速度を\\nわずかに上げ、前2人後ろ2人までの\\nウマ娘をほんのちょっと萎縮させる",
+    "icon_id": 20011,
+    "group_id": 91058,
     "group_rate": 2
   },
   "910591": {

@@ -857,6 +857,28 @@
     "effect_table_id": 10078,
     "command_id": 106
   },
+  "10079": {
+    "id": 10079,
+    "name_jp": "[トレセン学園]ダイイチルビー",
+    "name_zh": "[特雷森学院]ダイイチルビー",
+    "short_name": "[力]ダイイチルビー",
+    "rarity": "R",
+    "type": "力",
+    "unique_effect_id": 0,
+    "effect_table_id": 10079,
+    "command_id": 102
+  },
+  "10080": {
+    "id": 10080,
+    "name_jp": "[トレセン学園]ケイエスミラクル",
+    "name_zh": "[特雷森学院]ケイエスミラクル",
+    "short_name": "[根]ケイエスミラクル",
+    "rarity": "R",
+    "type": "根",
+    "unique_effect_id": 0,
+    "effect_table_id": 10080,
+    "command_id": 103
+  },
   "10081": {
     "id": 10081,
     "name_jp": "[トレセン学園]ツルマルツヨシ",
@@ -1417,6 +1439,17 @@
     "unique_effect_id": 20050,
     "effect_table_id": 20050,
     "command_id": 106
+  },
+  "20051": {
+    "id": 20051,
+    "name_jp": "[The 3rd MIRACLE]ケイエスミラクル",
+    "name_zh": "[The 3rd MIRACLE]ケイエスミラクル",
+    "short_name": "[根]ケイエスミラクル",
+    "rarity": "SR",
+    "type": "根",
+    "unique_effect_id": 20051,
+    "effect_table_id": 20051,
+    "command_id": 103
   },
   "30001": {
     "id": 30001,
@@ -2605,6 +2638,50 @@
     "unique_effect_id": 30113,
     "effect_table_id": 30113,
     "command_id": 105
+  },
+  "30114": {
+    "id": 30114,
+    "name_jp": "[嗚呼華麗ナル一族]ダイイチルビー",
+    "name_zh": "[嗚呼華麗ナル一族]ダイイチルビー",
+    "short_name": "[力]ダイイチルビー",
+    "rarity": "SSR",
+    "type": "力",
+    "unique_effect_id": 30114,
+    "effect_table_id": 30114,
+    "command_id": 102
+  },
+  "30115": {
+    "id": 30115,
+    "name_jp": "[月下の悪魔ちゃん♪]メジロパーマー",
+    "name_zh": "[月下の悪魔ちゃん♪]目白善信",
+    "short_name": "[耐]目白善信",
+    "rarity": "SSR",
+    "type": "耐",
+    "unique_effect_id": 30115,
+    "effect_table_id": 30115,
+    "command_id": 105
+  },
+  "30116": {
+    "id": 30116,
+    "name_jp": "[お日さま天使ちゃん♪]ダイタクヘリオス",
+    "name_zh": "[お日さま天使ちゃん♪]大拓太阳神",
+    "short_name": "[速]大拓太阳神",
+    "rarity": "SSR",
+    "type": "速",
+    "unique_effect_id": 30116,
+    "effect_table_id": 30116,
+    "command_id": 101
+  },
+  "30117": {
+    "id": 30117,
+    "name_jp": "[とびだせ！恐怖の魔王軍]シンコウウインディ",
+    "name_zh": "[とびだせ！恐怖の魔王軍]新光风",
+    "short_name": "[根]新光风",
+    "rarity": "SSR",
+    "type": "根",
+    "unique_effect_id": 30117,
+    "effect_table_id": 30117,
+    "command_id": 103
   },
   "30121": {
     "id": 30121,

@@ -441,6 +441,19 @@
     "running_style": "差",
     "available_skill_set_id": 101901
   },
+  "101902": {
+    "id": 101902,
+    "name_jp": "[愛麗♡キョンシー]アグネスデジタル",
+    "name_zh": "[愛麗♡キョンシー]爱丽数码",
+    "nickname": "爱丽数码",
+    "talent_speed": 7,
+    "talent_stamina": 7,
+    "talent_pow": 8,
+    "talent_guts": 8,
+    "talent_wiz": 0,
+    "running_style": "差",
+    "available_skill_set_id": 101902
+  },
   "102001": {
     "id": 102001,
     "name_jp": "[あおぐもサミング]セイウンスカイ",
@@ -857,6 +870,19 @@
     "running_style": "先",
     "available_skill_set_id": 104101
   },
+  "104201": {
+    "id": 104201,
+    "name_jp": "[Rocket☆Star]シーキングザパール",
+    "name_zh": "[Rocket☆Star]采珠",
+    "nickname": "采珠",
+    "talent_speed": 10,
+    "talent_stamina": 0,
+    "talent_pow": 0,
+    "talent_guts": 0,
+    "talent_wiz": 20,
+    "running_style": "先",
+    "available_skill_set_id": 104201
+  },
   "104401": {
     "id": 104401,
     "name_jp": "[プラタナス・ウィッチ]スイープトウショウ",
@@ -1051,6 +1077,19 @@
     "talent_wiz": 0,
     "running_style": "先",
     "available_skill_set_id": 105801
+  },
+  "105802": {
+    "id": 105802,
+    "name_jp": "[Dot-o'-Lantern]メイショウドトウ",
+    "name_zh": "[Dot-o'-Lantern]名将怒涛",
+    "nickname": "名将怒涛",
+    "talent_speed": 0,
+    "talent_stamina": 0,
+    "talent_pow": 15,
+    "talent_guts": 0,
+    "talent_wiz": 15,
+    "running_style": "先",
+    "available_skill_set_id": 105802
   },
   "105901": {
     "id": 105901,
