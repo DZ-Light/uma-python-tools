@@ -890,6 +890,17 @@
     "effect_table_id": 10081,
     "command_id": 103
   },
+  "10082": {
+    "id": 10082,
+    "name_jp": "[トレセン学園]シンボリクリスエス",
+    "name_zh": "[特雷森学院]シンボリクリスエス",
+    "short_name": "[耐]シンボリクリスエス",
+    "rarity": "R",
+    "type": "耐",
+    "unique_effect_id": 0,
+    "effect_table_id": 10082,
+    "command_id": 105
+  },
   "10083": {
     "id": 10083,
     "name_jp": "[イベントプロデューサー]ライトハロー",
@@ -900,6 +911,17 @@
     "unique_effect_id": 0,
     "effect_table_id": 10083,
     "command_id": 0
+  },
+  "10084": {
+    "id": 10084,
+    "name_jp": "[トレセン学園]タニノギムレット",
+    "name_zh": "[特雷森学院]タニノギムレット",
+    "short_name": "[力]タニノギムレット",
+    "rarity": "R",
+    "type": "力",
+    "unique_effect_id": 0,
+    "effect_table_id": 10084,
+    "command_id": 102
   },
   "20001": {
     "id": 20001,
@@ -1449,6 +1471,17 @@
     "type": "根",
     "unique_effect_id": 20051,
     "effect_table_id": 20051,
+    "command_id": 103
+  },
+  "20052": {
+    "id": 20052,
+    "name_jp": "[『フレフレ、ツヨシ！』]ツルマルツヨシ",
+    "name_zh": "[『フレフレ、ツヨシ！』]ツルマルツヨシ",
+    "short_name": "[根]ツルマルツヨシ",
+    "rarity": "SR",
+    "type": "根",
+    "unique_effect_id": 20052,
+    "effect_table_id": 20052,
     "command_id": 103
   },
   "30001": {
@@ -2683,6 +2716,17 @@
     "effect_table_id": 30117,
     "command_id": 103
   },
+  "30118": {
+    "id": 30118,
+    "name_jp": "[A Win Foreshadowed]シンボリクリスエス",
+    "name_zh": "[A Win Foreshadowed]シンボリクリスエス",
+    "short_name": "[耐]シンボリクリスエス",
+    "rarity": "SSR",
+    "type": "耐",
+    "unique_effect_id": 30118,
+    "effect_table_id": 30118,
+    "command_id": 105
+  },
   "30121": {
     "id": 30121,
     "name_jp": "[U & Me]ミホノブルボン",
@@ -2693,5 +2737,16 @@
     "unique_effect_id": 30121,
     "effect_table_id": 30121,
     "command_id": 101
+  },
+  "30145": {
+    "id": 30145,
+    "name_jp": "[Welcome to Umayuru]タニノギムレット",
+    "name_zh": "[Welcome to Umayuru]タニノギムレット",
+    "short_name": "[力]タニノギムレット",
+    "rarity": "SSR",
+    "type": "力",
+    "unique_effect_id": 30145,
+    "effect_table_id": 30145,
+    "command_id": 102
   }
 }

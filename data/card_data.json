@@ -1273,6 +1273,32 @@
     "running_style": "差",
     "available_skill_set_id": 107401
   },
+  "107801": {
+    "id": 107801,
+    "name_jp": "[Fluttertail Spirit]ヤマニンゼファー",
+    "name_zh": "[Fluttertail Spirit]ヤマニンゼファー",
+    "nickname": "ヤマニンゼファー",
+    "talent_speed": 10,
+    "talent_stamina": 0,
+    "talent_pow": 0,
+    "talent_guts": 10,
+    "talent_wiz": 10,
+    "running_style": "先",
+    "available_skill_set_id": 107801
+  },
+  "108701": {
+    "id": 108701,
+    "name_jp": "[Flare]アストンマーチャン",
+    "name_zh": "[Flare]アストンマーチャン",
+    "nickname": "アストンマーチャン",
+    "talent_speed": 20,
+    "talent_stamina": 0,
+    "talent_pow": 0,
+    "talent_guts": 10,
+    "talent_wiz": 0,
+    "running_style": "逃",
+    "available_skill_set_id": 108701
+  },
   "109801": {
     "id": 109801,
     "name_jp": "[陰陽八卦☆開運衣]コパノリッキー",
