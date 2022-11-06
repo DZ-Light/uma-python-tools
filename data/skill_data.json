@@ -1567,6 +1567,22 @@
     "group_id": 11020,
     "group_rate": 1
   },
+  "110211": {
+    "id": 110211,
+    "name_jp": "火神鳴",
+    "name_zh": "火神鳴",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "activate_count_middle>=2",
+    "condition_2": "",
+    "describe": "レース中盤にスキルを2つ発動すると\\n速度を少し上げ続ける、効果中スキルを\\n発動すると2回まで効果が増える",
+    "icon_id": 20013,
+    "group_id": 11021,
+    "group_rate": 1
+  },
   "110221": {
     "id": 110221,
     "name_jp": "Best day ever",
@@ -1645,6 +1661,22 @@
     "describe": "在比赛中盘处在好位置\\n并在跑动中被紧追\\n则从前方马娘处吸取持久力",
     "icon_id": 20023,
     "group_id": 11030,
+    "group_rate": 1
+  },
+  "110341": {
+    "id": 110341,
+    "name_jp": "灯穂",
+    "name_zh": "灯穂",
+    "need_skill_point": 200,
+    "grade_value": 340,
+    "rare": "固有★★★",
+    "rarity": 5,
+    "disp_order": 10,
+    "condition_1": "is_last_straight_onetime==1",
+    "condition_2": "",
+    "describe": "終盤コーナーで後方で詰寄ると最終直線\\nで速度が上がる、終盤コーナーで追い抜\\nいた回数に応じて効果が増える",
+    "icon_id": 20013,
+    "group_id": 11034,
     "group_rate": 1
   },
   "110351": {
@@ -8911,6 +8943,38 @@
     "group_id": 20242,
     "group_rate": 1
   },
+  "202431": {
+    "id": 202431,
+    "name_jp": "快進撃",
+    "name_zh": "快進撃",
+    "need_skill_point": 170,
+    "grade_value": 508,
+    "rare": "レア",
+    "rarity": 2,
+    "disp_order": 22120,
+    "condition_1": "distance_type==3&running_style==2&phase_laterhalf_random==1&distance_diff_top<=10",
+    "condition_2": "",
+    "describe": "終盤が迫ったとき先頭にいるか\\n先頭から4バ身以内だと速度と加速力が\\n少し上がる＜先行・中距離＞",
+    "icon_id": 20012,
+    "group_id": 20243,
+    "group_rate": 2
+  },
+  "202432": {
+    "id": 202432,
+    "name_jp": "確かな足取り",
+    "name_zh": "確かな足取り",
+    "need_skill_point": 170,
+    "grade_value": 217,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 22130,
+    "condition_1": "distance_type==3&running_style==2&phase_laterhalf_random==1&distance_diff_top<=10",
+    "condition_2": "",
+    "describe": "終盤が迫ったとき先頭にいるか\\n先頭から4バ身以内だと速度と加速力が\\nちょっと上がる＜先行・中距離＞",
+    "icon_id": 20011,
+    "group_id": 20243,
+    "group_rate": 1
+  },
   "210011": {
     "id": 210011,
     "name_jp": "アオハル燃焼・速",
@@ -10655,6 +10719,22 @@
     "group_id": 91020,
     "group_rate": 2
   },
+  "910211": {
+    "id": 910211,
+    "name_jp": "火神鳴",
+    "name_zh": "火神鳴",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "activate_count_middle>=2",
+    "condition_2": "",
+    "describe": "レース中盤にスキルを2つ発動すると\\n速度をちょっと上げ続ける、効果中スキ\\nルを発動すると2回まで効果が増える",
+    "icon_id": 20011,
+    "group_id": 91021,
+    "group_rate": 2
+  },
   "910221": {
     "id": 910221,
     "name_jp": "Best day ever",
@@ -10733,6 +10813,22 @@
     "describe": "レース中盤を好位置で走行中に\\n詰め寄られると前方のウマ娘から\\n持久力をわずかに吸い取る",
     "icon_id": 20021,
     "group_id": 91030,
+    "group_rate": 2
+  },
+  "910341": {
+    "id": 910341,
+    "name_jp": "灯穂",
+    "name_zh": "灯穂",
+    "need_skill_point": 200,
+    "grade_value": 180,
+    "rare": "ノーマル",
+    "rarity": 1,
+    "disp_order": 30,
+    "condition_1": "is_last_straight_onetime==1",
+    "condition_2": "",
+    "describe": "終盤コーナーで後方で詰寄ると最終直線\\nで速度がわずかに上がる、終盤コーナー\\nで追い抜いた回数に応じて効果が増える",
+    "icon_id": 20011,
+    "group_id": 91034,
     "group_rate": 2
   },
   "910351": {

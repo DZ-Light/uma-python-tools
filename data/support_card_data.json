@@ -2727,6 +2727,28 @@
     "effect_table_id": 30118,
     "command_id": 105
   },
+  "30119": {
+    "id": 30119,
+    "name_jp": "[夜風に舞うは祈りの花]メジロアルダン",
+    "name_zh": "[夜風に舞うは祈りの花]目白阿尔丹",
+    "short_name": "[速]目白阿尔丹",
+    "rarity": "SSR",
+    "type": "速",
+    "unique_effect_id": 30119,
+    "effect_table_id": 30119,
+    "command_id": 101
+  },
+  "30120": {
+    "id": 30120,
+    "name_jp": "[天まで焦がせ祈りの火]ヤエノムテキ",
+    "name_zh": "[天まで焦がせ祈りの火]八重无敌",
+    "short_name": "[根]八重无敌",
+    "rarity": "SSR",
+    "type": "根",
+    "unique_effect_id": 30120,
+    "effect_table_id": 30120,
+    "command_id": 103
+  },
   "30121": {
     "id": 30121,
     "name_jp": "[U & Me]ミホノブルボン",
@@ -2748,5 +2770,16 @@
     "unique_effect_id": 30145,
     "effect_table_id": 30145,
     "command_id": 102
+  },
+  "30146": {
+    "id": 30146,
+    "name_jp": "[駆けよ、駆けよ、駆けよ！！]オグリキャップ",
+    "name_zh": "[駆けよ、駆けよ、駆けよ！！]小栗帽",
+    "short_name": "[智]小栗帽",
+    "rarity": "SSR",
+    "type": "智",
+    "unique_effect_id": 30146,
+    "effect_table_id": 30146,
+    "command_id": 106
   }
 }

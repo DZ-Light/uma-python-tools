@@ -493,6 +493,19 @@
     "running_style": "追",
     "available_skill_set_id": 102101
   },
+  "102102": {
+    "id": 102102,
+    "name_jp": "[猛ル鳴神]タマモクロス",
+    "name_zh": "[猛ル鳴神]玉藻十字",
+    "nickname": "玉藻十字",
+    "talent_speed": 14,
+    "talent_stamina": 8,
+    "talent_pow": 0,
+    "talent_guts": 8,
+    "talent_wiz": 0,
+    "running_style": "先",
+    "available_skill_set_id": 102102
+  },
   "102201": {
     "id": 102201,
     "name_jp": "[Noble Seamair]ファインモーション",
@@ -726,6 +739,19 @@
     "talent_wiz": 0,
     "running_style": "追",
     "available_skill_set_id": 103401
+  },
+  "103402": {
+    "id": 103402,
+    "name_jp": "[夢ノ金原]イナリワン",
+    "name_zh": "[夢ノ金原]闪电",
+    "nickname": "闪电",
+    "talent_speed": 14,
+    "talent_stamina": 0,
+    "talent_pow": 8,
+    "talent_guts": 0,
+    "talent_wiz": 8,
+    "running_style": "追",
+    "available_skill_set_id": 103402
   },
   "103501": {
     "id": 103501,
