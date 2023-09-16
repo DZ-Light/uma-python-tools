@@ -36,7 +36,7 @@ def move_race_data(path):
                     ) or json_has_text(msg, "unchecked_event_array"):
                         print_file_name(
                             name, "ParseSingleModeCheckEventResponse")
-                        ParseSingleModeCheckEventResponse(msg)
+                        # ParseSingleModeCheckEventResponse(msg)
                         deal_path(
                             root, "ParseSingleModeCheckEventResponse", name, 5)
                         if (
