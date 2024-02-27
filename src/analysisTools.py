@@ -28,7 +28,7 @@ def move_race_data(path):
                             and not json_has_text(msg, "race_reward_info")
                     ):
                         print_file_name(name, "ParseCommandInfo")
-                        ParseCommandInfo(msg)
+                        # ParseCommandInfo(msg)
                         deal_path(root, "ParseCommandInfo", name, 5)
                     if (
                             json_has_text(msg, "chara_info")
@@ -42,12 +42,9 @@ def move_race_data(path):
                         if (
                                 json_has_text(msg, "chara_info")
                                 and json_has_text(msg, "unchecked_event_array")
-                                and (msg["data"]["chara_info"]["state"] == 2
-                                     or msg["data"]["chara_info"]["state"] == 3)
-                                and len(msg["data"]["unchecked_event_array"]) == 0
                         ):
                             print_file_name(name, "ParseSkillTipsResponse")
-                            ParseSkillTipsResponse(msg)
+                            # ParseSkillTipsResponse(msg)
                             deal_path(root, "ParseSkillTipsResponse", name, 5)
                     if (
                             json_has_text(msg, "trained_chara_array")
@@ -55,7 +52,7 @@ def move_race_data(path):
                             and json_has_text(msg, "room_match_entry_chara_id_array")
                     ):
                         print_file_name(name, "ParseTrainedCharaLoadResponse")
-                        ParseTrainedCharaLoadResponse(msg)
+                        # ParseTrainedCharaLoadResponse(msg)
                         deal_path(
                             root, "ParseTrainedCharaLoadResponse", name, 1)
                     if (
@@ -67,11 +64,11 @@ def move_race_data(path):
                             and json_has_text(msg, "own_follow_num")
                     ):
                         print_file_name(name, "ParseFriendSearchResponse")
-                        ParseFriendSearchResponse(msg)
+                        # ParseFriendSearchResponse(msg)
                         deal_path(root, "ParseFriendSearchResponse", name, 1)
                     if json_has_text(msg, "opponent_info_array") and "opponent_info_array" in msg["data"]:
                         print_file_name(name, "ParseTeamStadiumOpponentListResponse")
-                        ParseTeamStadiumOpponentListResponse(msg)
+                        # ParseTeamStadiumOpponentListResponse(msg)
                         deal_path(
                             root, "ParseTeamStadiumOpponentListResponse", name, 1)
                     if (
@@ -81,7 +78,7 @@ def move_race_data(path):
                             and json_has_text(msg, "trained_chara_array")
                     ):
                         print_file_name(name, "ParseChampionsRaceStartResponse")
-                        ParseChampionsRaceStartResponse(msg)
+                        # ParseChampionsRaceStartResponse(msg)
                         deal_path(root, "ParseChampionsRaceStartResponse", name, 1)
                     if json_has_text(msg, "race_start_params_array"):
                         print_file_name(name, "CarrotJuicer_team_race")
@@ -117,14 +114,10 @@ if __name__ == "__main__":
     print(color("程序开始运行", for_color=31))
     system_name = platform.system()
     if system_name == "Windows":
-        msgpack_path_jp = os.path.expanduser('~') + "/DMMGAME/Umamusume/CarrotJuicer"
-        msgpack_path_new = os.path.expanduser('~') + "/Documents/GitHub/AzusaHikari/uma-notify-analyzer/packets"
-        msgpack_path_tw = os.path.expanduser('~') + "/AppData/Local/UmamusumeResponseAnalyzer/packets"
+        msgpack_path = os.path.expanduser('~') + "/AppData/Local/UmamusumeResponseAnalyzer/packets"
         while 1:
             try:
-                move_race_data(msgpack_path_jp)
-                move_race_data(msgpack_path_new)
-                move_race_data(msgpack_path_tw)
+                move_race_data(msgpack_path)
             except Exception as ex:
                 print(color("出现如下异常%s" % ex, for_color=31))
                 init_data()
